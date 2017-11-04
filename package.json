@@ -1,0 +1,38 @@
+{
+  "name": "ast_lab_work",
+  "version": "1.0.0",
+  "description": "AST lab work for all saints holidays",
+  "main": "./src/index.js",
+  "scripts": {
+    "compile": "bash bin/compile.sh",
+    "start": "bash bin/start.sh",
+    "test": "bash bin/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bt57100/ast_lab_work.git"
+  },
+  "keywords": [
+    "AST",
+    "CoffeeScript",
+    "Pug",
+    "Stylus",
+    "NodeJS"
+  ],
+  "author": "GUOI Kevin, WONG Steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bt57100/ast_lab_work/issues"
+  },
+  "homepage": "https://github.com/bt57100/ast_lab_work#readme",
+  "dependencies": {
+    "coffeescript": "^2.0.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
