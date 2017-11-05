@@ -14,12 +14,15 @@ Use "bash bin/compile.sh"
 
 ## Run
 
+To run server
 Use "bash bin/start.sh"
 
 ## Tests
 
-Use "bash bin/start.sh" to start the server
-Use "bash bin/test.sh test/*" to test http responses while server is started
+To run server in background then test http responses
+Use "bash bin/test.sh test/*"
+
+Note: To stop the server, you may have to kill the process after hand
 
 ## Contributors
 
