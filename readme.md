@@ -18,7 +18,8 @@ Use "bash bin/start.sh"
 
 ## Tests
 
-Use "bash bin/test.sh test/*"
+Use "bash bin/start.sh" to start the server
+Use "bash bin/test.sh test/*" to test http responses while server is started
 
 ## Contributors
 
