@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>AST</title>
-    <link rel="stylesheet" href="public/css/global.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="icon" href="public/img/icon.png">
+    <title>Yellow chick - Blog de voyage</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header><img id="img_bg" alt="Les falaises d'Etretat" src="public/img/img1.jpg">
+      <h1 id="title"><a href="index.html">Yellow chick</a></h1>
+      <nav id="menu">
+        <ul>
+          <li id="menuItem1"><a href="#socialMedia">Articles</a></li>
+          <li id="menuItem2"><a href="#about">À propos</a></li>
+          <li id="menuItem3"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>À propos de moi</h2>
+        <p>J'aime beaucoup les voyages ainsi que la photographie ! Vous combinez les deux et on obtient Yellow chick !</p>
+        <aside id="socialMedia"><a href="https://www.facebook.com" target="_blank"><img alt="Logo de Facebook" src="public/img/facebook.png"></a><a href="https://www.instagram.com" target="_blank"><img alt="Logo d'Instagram" src="public/img/insta.png"></a><a href="https://www.twitter.com" target="_blank"><img alt="Logo de Twitter" src="public/img/twitter.png"></a></aside>
+      </section>
+      <section id="news">
+        <h2>Articles</h2>
+        <article class="bottomLine">
+          <h2><a href="article1.html">Mon dernier voyage en Normandie !</a></h2>
+          <div><img class="leftRotate" alt="Les falaises d'Etretat" src="public/img/img1.jpg">
+            <p class="lightInformation">Article publié le 13/09/2017 par Steven</p>
+            <p>Durant toute la semaine dernière, je suis parti en Normandie avec quelques-uns de mes amis. Le soleil m'a permis de vous rapporter quelques clichés !</p>
+          </div>
+        </article>
+        <article class="bottomLine">
+          <h2><a href="article1.html">Promenade dans les forêts landaises !</a></h2>
+          <div><img class="rightRotate" alt="Les forêts landaises" src="public/img/landes.jpg">
+            <p class="lightInformation">Article publié le 27/07/2017 par Steven</p>
+            <p>C'est un véritable havre de paix ! Parisien depuis toujours, quitter la forêt urbaine pour marcher dans cette nature apaisante devient un véritable sérum de vie.</p>
+          </div>
+        </article>
+        <article>
+          <h2><a href="article1.html">Le Lac de Lispach</a></h2>
+          <div><img class="leftRotate" alt="Le lac de Lispach" src="public/img/lac.jpg">
+            <p class="lightInformation">Article publié le 21/06/2017 par Steven</p>
+            <p>Ce lac, situé dans les Vosges, est comme un petit Canada à quelques heures de Paris ! Ce lac offre des paysages à couper le souffle ainsi qu'une flore luxuriante et variée !</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>Kevin GUOI / Steven Wong - Engineering student at ECE Paris | 2017</footer>
   </body>
 </html>

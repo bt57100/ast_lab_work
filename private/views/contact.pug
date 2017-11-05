@@ -1,0 +1,41 @@
+doctype html
+html(lang="fr")
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Pacifico")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Indie+Flower")
+    link(rel="stylesheet", href="public/css/style.css")
+    link(rel="icon", href="public/img/icon.png")
+    title="Yellow chick - Blog de voyage"
+
+  body
+    header
+      img(id="img_bg", alt="Les falaises d'Etretat", src="public/img/img1.jpg")
+
+      h1(id="title")
+        a(href="index.html") Yellow chick
+
+      nav(id="menu")
+        ul
+          li(id="menuItem1")
+            a(href="index.html#socialMedia") Articles
+          li(id="menuItem2")
+            a(href="index.html#about") À propos
+          li(id="menuItem3")
+            a(href="contact.html") Contact
+
+    main
+      section(id="contact")
+        h2 Contact
+        form
+          input(type="email", placeholder="Adresse mail", required)
+          input(type="tel", placeholder="Téléphone", pattern="[0-9]{10}")
+          label Date pour vous recontacter
+          input(type="date")
+          select(id="Type")
+            option(value="Presse") Presse
+            option(value="Fan") Fan
+            option(value="Curieux") Curieux
+          button(type="submit") Envoyer
+
+    footer Kevin GUOI / Steven Wong - Engineering student at ECE Paris | 2017
